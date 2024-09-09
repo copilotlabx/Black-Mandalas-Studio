@@ -1,4 +1,6 @@
 /* Estilos generales del body */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Karla:ital,wght@0,200..800;1,200..800&family=Lilita+One&family=Protest+Guerrilla&display=swap');
+
 body {
     font-family: "Anton", sans-serif;
     margin: 0;
