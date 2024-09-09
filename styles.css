@@ -1,7 +1,4 @@
 /* Estilos generales */
-
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Karla:ital,wght@0,200..800;1,200..800&family=Lilita+One&family=Protest+Guerrilla&display=swap');
-
 body {
     font-family: "Anton", sans-serif;
     margin: 0;
@@ -10,33 +7,32 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
-    
+    background-size: cover; /* Ajusta la imagen de fondo para pantallas pequeñas */
     color: #e4e6eb;
-    padding-top: 90px; /* Ajustar según la altura del header */
+    padding-top: 90px;
 }
 
 /* Sección SoundCloud */
 .soundcloud-section {
-    padding: 60px 0;
+    padding: 40px 10px; /* Ajustar padding para pantallas pequeñas */
 }
 
 .soundcloud-section h2 {
-    font-size: 2.4em;
+    font-size: 2em;
     font-family: "Protest Guerrilla", sans-serif;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     color: #df2c0cb4;
 }
 
 .soundcloud-player {
     width: 100%;
-    max-width: 660px;
+    max-width: 100%; /* Asegura que el reproductor no se salga del contenedor */
     margin: 0 auto;
     background-color: #000;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
 
 /* Contenedor principal */
 .container {
@@ -45,63 +41,50 @@ body {
     margin: 0 auto;
     text-align: center;
 }
+
 .container-footer {
-    width: 80%;
-    max-width: 1000px;
+    width: 95%; /* Ajuste para pantallas más pequeñas */
     margin: 0 auto;
     text-align: center;
-    padding-bottom: 10px; /* Ajustar según la altura del header */
+    padding-bottom: 10px;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lilita+One&display=swap');
-
-
 
 /* Estilos del encabezado */
 header {
-    background: rgba(156, 24, 9, 0.26); /* Mantener el color del header con transparencia */
+    background: rgba(156, 24, 9, 0.26);
     padding: 10px 0;
-    position: fixed; /* Fijar el header en la parte superior */
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000; /* Asegura que el header esté por encima de otros elementos */
+    z-index: 1000;
     box-sizing: border-box;
 }
 
-    
-
-
-/* Contenido del header */
 .header-content {
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-between; /* Para separar logo y texto en móviles */
+    flex-direction: row;
+    padding: 0 20px; /* Agrega padding para mejorar la legibilidad */
 }
 
 .header-content .logo {
-    width: 100px;
-    margin-bottom: 10px;
+    width: 80px; /* Ajusta el tamaño del logo en pantallas pequeñas */
 }
 
 .header-text h1 {
     text-align: center;
     font-family: "Protest Guerrilla", sans-serif;
-    font-size: 3.4em;
-    margin: 0;
+    font-size: 2em;
     color: #fbff00;
-    
+    margin: 0;
 }
-
-
 
 /* Sección Hero */
 .hero {
-    padding: 30px 0; /* Ajustar para darle mayor espacio */
-    min-height: 20vh; /* Garantiza que la sección ocupe una buena parte de la pantalla */
-    color: #fff;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    padding: 20px 10px;
+    min-height: 30vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -109,83 +92,75 @@ header {
 }
 
 .hero h2 {
-    font-size: 2.2em;
-    margin-bottom: 15px;
+    font-size: 1.8em;
+    margin-bottom: 10px;
 }
 
 .hero p {
-    font-size: 1.4em;
+    font-size: 1.2em;
     margin-bottom: 10px;
 }
 
 /* Sección de Servicios */
 .services {
-    padding: 20px 0;
+    padding: 20px 10px;
 }
 
 .services h2 {
-    font-size: 2.4em;
+    font-size: 2.2em;
     font-family: "Protest Guerrilla", sans-serif;
     margin-bottom: 20px;
     color: #fbff00;
 }
 
 .service-item {
-    display: inline-block;
-    width: 45%;
-    margin: 10px;
-    vertical-align: top;
-    text-align: left;
+    display: block; /* Muestra cada ítem en su propia línea en pantallas pequeñas */
+    width: 100%; /* Asegura que ocupen el ancho completo en móviles */
+    margin: 20px 0;
+    text-align: center;
 }
 
 .service-item img {
     width: 100%;
     height: auto;
     border-radius: 10px;
-    max-height: 200px;
+    max-height: 300px; /* Limita la altura para evitar distorsiones */
     object-fit: cover;
 }
 
 .service-item h3 {
-    font-size: 1.5em;
-    margin: 10px 0 5px;
-    color: #e4e6eb;
+    font-size: 1.6em;
+    margin: 10px 0;
 }
 
 .service-item p {
     font-size: 1em;
-    color: #f9fbff;
 }
 
 /* Sección de Contacto */
 .contact {
-    background: rgba(94, 24, 16, 0.438); /* Mantener el color del header con transparencia */
-    width: 100%; /* Reduce el ancho del footer */
-    max-width: 1200px; /* Limita el ancho máximo del footer */
-    margin: 0 auto; /* Asegura que el footer esté centrado */
-    padding: 12px 0;
+    background: rgba(94, 24, 16, 0.438);
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 10px;
 }
 
 .contact h2 {
-    font-size: 2em;
-    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 1.8em;
     margin-bottom: 6px;
     color: #fbff00;
 }
 
 .contact p {
     font-size: 1.1em;
-    font-family: "Karla", sans-serif;
-    margin-bottom: 15px;
-    
 }
 
-/* Botón de WhatsApp */
 .whatsapp-button {
     background-color: #25D366;
     color: #fff;
-    padding: 10px 10px;
-    font-size: 1.1em;
+    padding: 10px 15px;
+    font-size: 1.2em;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
@@ -196,52 +171,55 @@ header {
 }
 
 .whatsapp-button::before {
-    content: url('img/whatsapp-icon.pn'); /* Asegúrate de tener un icono de WhatsApp en esta ruta */
-
+    content: url('img/whatsapp-icon.png');
     margin-right: 8px;
     vertical-align: middle;
 }
 
 /* Pie de página */
 footer {
-    background: rgba(167, 47, 34, 0.199); /* Sin color de fondo, totalmente transparente */
-    padding: 1px 0;
-    color: #ffffff;
-    box-sizing: border-box;
-    width: 100%; /* Reduce el ancho del footer */
-    max-width: 1000px; /* Limita el ancho máximo del footer */
-    margin: 0 auto; /* Asegura que el footer esté centrado */
-    text-align: center; /* Centra el contenido dentro del footer */
-    font-family: "Karla", sans-serif;
-    position: relative; /* Mantiene el footer dentro del flujo del documento */
-}
-
-.footer-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row; /* Mantiene el contenido en dirección horizontal */
+    background: rgba(167, 47, 34, 0.199);
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
 }
 
 footer p {
     margin: 0;
-    padding: 2px 0; /* Opcional: agrega un poco de padding si es necesario */
 }
-
-
 
 /* Responsive */
 @media (max-width: 768px) {
-    .service-item {
-        width: 100%;
-        margin: 5px 0;
+    .header-content {
+        flex-direction: column; /* Reorganiza logo y texto verticalmente en móviles */
+    }
+
+    .header-content .logo {
+        width: 80px; /* Ajusta el tamaño del logo */
+        margin-bottom: 10px;
     }
 
     .hero h2 {
-        font-size: 1.8em;
+        font-size: 1.6em;
     }
 
     .hero p {
+        font-size: 1em;
+    }
+
+    .service-item {
+        width: 100%; /* Asegura que cada servicio ocupe el 100% del ancho */
+    }
+
+    .services h2 {
+        font-size: 2em;
+    }
+
+    .contact h2 {
+        font-size: 1.6em;
+    }
+
+    .contact p {
         font-size: 1em;
     }
 }
