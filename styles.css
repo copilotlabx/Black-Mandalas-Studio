@@ -190,9 +190,13 @@ footer p {
 
 /* Responsive */
 @media (max-width: 768px) {
-    .header-content {
-        flex-direction: column; /* Reorganiza logo y texto verticalmente en móviles */
-    }
+    body {
+        background-size: cover; /* Mantiene la imagen de fondo bien ajustada */
+        background-position: top center; /* Ajusta el fondo para que se vea bien en móviles */
+        background-attachment: scroll; /* Evita problemas de rendimiento en móviles con imágenes fijas */
+     }
+   }
+
 
     .header-content .logo {
         width: 80px; /* Ajusta el tamaño del logo */
