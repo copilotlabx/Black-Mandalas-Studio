@@ -214,7 +214,7 @@ service-item img {
         margin-right: 5px; /* Ajustar el margen del ícono en móviles */
     }
     .service-item {
-        width: 100%; /* Ajusta el ancho para móviles para que cada item use todo el ancho disponible */
+        width: 80%; /* Ajusta el ancho para móviles para que cada item use todo el ancho disponible */
     }
     .service-item img {
         min-height: 120px; /* Puede ajustar esta medida según necesidades específicas */
@@ -233,7 +233,7 @@ service-item img {
     .whatsapp-button {
         font-size: 1em; /* Ajustar el tamaño del texto del botón */
         padding: 10px 12px; /* Ajustar el padding para pantallas pequeñas */
-        width: 90%; /* Ocupar casi todo el ancho en pantallas pequeñas */
+        width: 80%; /* Ocupar casi todo el ancho en pantallas pequeñas */
     }
     .service-item img {
         min-height: 100px; /* Ajuste para teléfonos más pequeños */
