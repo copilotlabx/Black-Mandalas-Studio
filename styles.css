@@ -1,5 +1,4 @@
 /* Estilos generales */
-
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Karla:ital,wght@0,200..800;1,200..800&family=Lilita+One&family=Protest+Guerrilla&display=swap');
 
 body {
@@ -10,7 +9,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
-    
+    background-size: cover; /* Añadir para ajustar la imagen de fondo a móviles */
     color: #e4e6eb;
     padding-top: 90px; /* Ajustar según la altura del header */
 }
@@ -37,7 +36,6 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-
 /* Contenedor principal */
 .container {
     width: 95%;
@@ -53,26 +51,18 @@ body {
     padding-bottom: 10px; /* Ajustar según la altura del header */
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lilita+One&display=swap');
-
-
-
 /* Estilos del encabezado */
 header {
-    background: rgba(156, 24, 9, 0.26); /* Mantener el color del header con transparencia */
+    background: rgba(156, 24, 9, 0.26);
     padding: 10px 0;
-    position: fixed; /* Fijar el header en la parte superior */
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000; /* Asegura que el header esté por encima de otros elementos */
+    z-index: 1000;
     box-sizing: border-box;
 }
 
-    
-
-
-/* Contenido del header */
 .header-content {
     display: flex;
     align-items: center;
@@ -91,15 +81,12 @@ header {
     font-size: 3.4em;
     margin: 0;
     color: #fbff00;
-    
 }
-
-
 
 /* Sección Hero */
 .hero {
-    padding: 30px 0; /* Ajustar para darle mayor espacio */
-    min-height: 20vh; /* Garantiza que la sección ocupe una buena parte de la pantalla */
+    padding: 30px 0;
+    min-height: 20vh;
     color: #fff;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
     display: flex;
@@ -159,10 +146,10 @@ header {
 
 /* Sección de Contacto */
 .contact {
-    background: rgba(94, 24, 16, 0.438); /* Mantener el color del header con transparencia */
-    width: 100%; /* Reduce el ancho del footer */
-    max-width: 1200px; /* Limita el ancho máximo del footer */
-    margin: 0 auto; /* Asegura que el footer esté centrado */
+    background: rgba(94, 24, 16, 0.438);
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 12px 0;
 }
 
@@ -177,7 +164,6 @@ header {
     font-size: 1.1em;
     font-family: "Karla", sans-serif;
     margin-bottom: 15px;
-    
 }
 
 /* Botón de WhatsApp */
@@ -196,41 +182,38 @@ header {
 }
 
 .whatsapp-button::before {
-    content: url('img/whatsapp-icon.pn'); /* Asegúrate de tener un icono de WhatsApp en esta ruta */
-
+    content: url('img/whatsapp-icon.png'); /* Corregir la extensión de la imagen */
     margin-right: 8px;
     vertical-align: middle;
 }
 
 /* Pie de página */
 footer {
-    background: rgba(167, 47, 34, 0.199); /* Sin color de fondo, totalmente transparente */
+    background: rgba(167, 47, 34, 0.199);
     padding: 1px 0;
     color: #ffffff;
     box-sizing: border-box;
-    width: 100%; /* Reduce el ancho del footer */
-    max-width: 1000px; /* Limita el ancho máximo del footer */
-    margin: 0 auto; /* Asegura que el footer esté centrado */
-    text-align: center; /* Centra el contenido dentro del footer */
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
     font-family: "Karla", sans-serif;
-    position: relative; /* Mantiene el footer dentro del flujo del documento */
+    position: relative;
 }
 
 .footer-content {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row; /* Mantiene el contenido en dirección horizontal */
+    flex-direction: row;
 }
 
 footer p {
     margin: 0;
-    padding: 2px 0; /* Opcional: agrega un poco de padding si es necesario */
+    padding: 2px 0;
 }
 
-
-
-/* Responsive */
+/* Responsive - Mejoras para móviles */
 @media (max-width: 768px) {
     .service-item {
         width: 100%;
@@ -244,5 +227,58 @@ footer p {
     .hero p {
         font-size: 1em;
     }
+
+    .header-text h1 {
+        font-size: 2.4em;
+    }
+
+    .contact h2 {
+        font-size: 1.6em;
+    }
+
+    .contact p {
+        font-size: 1em;
+    }
+
+    .services h2 {
+        font-size: 2em;
+    }
+
+    /* Ajustar el tamaño del logo para móviles */
+    .header-content .logo {
+        width: 80px;
+    }
 }
+
+@media (max-width: 480px) {
+    .hero h2 {
+        font-size: 1.5em;
+    }
+
+    .hero p {
+        font-size: 0.9em;
+    }
+
+    .header-text h1 {
+        font-size: 2em;
+    }
+
+    .contact h2 {
+        font-size: 1.4em;
+    }
+
+    .contact p {
+        font-size: 0.9em;
+    }
+
+    .services h2 {
+        font-size: 1.8em;
+    }
+
+    /* Reducir tamaño del logo en pantallas más pequeñas */
+    .header-content .logo {
+        width: 60px;
+    }
+}
+
 
