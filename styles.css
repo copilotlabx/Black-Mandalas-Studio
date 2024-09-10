@@ -185,7 +185,7 @@ header {
 }
 
 .whatsapp-button::before {
-    content: url('img/whatsapp-icon.png'); /* Asegúrate de tener la imagen correcta */
+   /* content: url('img/whatsapp-icon.png'); /* Asegúrate de tener la imagen correcta */
     margin-right: 10px;
     vertical-align: middle;
 }
