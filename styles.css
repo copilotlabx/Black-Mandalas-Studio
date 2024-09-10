@@ -125,14 +125,13 @@ header {
     text-align: left;
 }
 
-service-item img {
-    width: 100%; /* Asegura que la imagen se adapte al contenedor */
-    height: auto; /* Mantiene la proporción de las imágenes */
+.service-item img {
+    width: 100%;
+    height: auto;
     border-radius: 10px;
-    object-fit: cover; /* Asegura que la imagen cubra el área sin distorsionarse */
-    min-height: 150px; /* Establece una altura mínima para las imágenes */
+    max-height: 200px;
+    object-fit: cover;
 }
-
 .service-item h3 {
     font-size: 1.5em;
     margin: 10px 0 5px;
