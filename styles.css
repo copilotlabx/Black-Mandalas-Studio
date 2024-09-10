@@ -150,30 +150,33 @@ header {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 12px 0;
+    padding: 20px 0; /* Aumentar el padding para móviles */
+    text-align: center; /* Centrar el contenido */
 }
 
 .contact h2 {
     font-size: 2em;
     font-family: "Protest Guerrilla", sans-serif;
-    margin-bottom: 6px;
+    margin-bottom: 10px;
     color: #fbff00;
 }
 
 .contact p {
-    font-size: 1.1em;
+    font-size: 1.2em;
     font-family: "Karla", sans-serif;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 /* Botón de WhatsApp */
 .whatsapp-button {
+    display: inline-block;
     background-color: #25D366;
     color: #fff;
-    padding: 10px 10px;
-    font-size: 1.1em;
+    padding: 12px 20px; /* Mayor padding para mejorar la interacción en móviles */
+    font-size: 1.2em;
+    font-weight: bold;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 8px; /* Bordes más redondeados */
     transition: background-color 0.3s;
 }
 
@@ -182,75 +185,52 @@ header {
 }
 
 .whatsapp-button::before {
-    content: url('img/whatsapp-icon.png'); /* Corregir la extensión de la imagen */
-    margin-right: 8px;
+    content: url('img/whatsapp-icon.png'); /* Asegúrate de tener la imagen correcta */
+    margin-right: 10px;
     vertical-align: middle;
 }
 
-/* Pie de página */
-footer {
-    background: rgba(167, 47, 34, 0.199);
-    padding: 1px 0;
-    color: #ffffff;
-    box-sizing: border-box;
-    width: 100%;
-    max-width: 1000px;
-    margin: 0 auto;
-    text-align: center;
-    font-family: "Karla", sans-serif;
-    position: relative;
-}
-
-.footer-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-}
-
-footer p {
-    margin: 0;
-    padding: 2px 0;
-}
-
-/* Responsive - Mejoras para móviles */
+/* Responsividad - Ajustes para móviles */
 @media (max-width: 768px) {
-    .service-item {
-        width: 100%;
-        margin: 5px 0;
-    }
-
-    .hero h2 {
-        font-size: 1.8em;
-    }
-
-    .hero p {
-        font-size: 1em;
-    }
-
-    .header-text h1 {
-        font-size: 2.4em;
+    .contact {
+        padding: 15px 10px; /* Reducir el padding en móviles */
     }
 
     .contact h2 {
-        font-size: 1.6em;
+        font-size: 1.8em; /* Reducir el tamaño del título en móviles */
     }
 
     .contact p {
-        font-size: 1em;
+        font-size: 1.1em; /* Ajustar el tamaño del párrafo */
     }
 
-    .services h2 {
-        font-size: 2em;
+    .whatsapp-button {
+        font-size: 1.1em;
+        padding: 10px 16px; /* Reducir padding del botón en móviles */
+        width: 80%; /* Hacer que el botón ocupe más espacio horizontal en móviles */
     }
 
-    /* Ajustar el tamaño del logo para móviles */
-    .header-content .logo {
-        width: 80px;
+    .whatsapp-button::before {
+        margin-right: 5px; /* Ajustar el margen del ícono en móviles */
     }
 }
 
 @media (max-width: 480px) {
+    .contact h2 {
+        font-size: 1.6em; /* Más pequeño para móviles muy pequeños */
+    }
+
+    .contact p {
+        font-size: 1em; /* Reducir el tamaño del texto aún más */
+    }
+
+    .whatsapp-button {
+        font-size: 1em; /* Ajustar el tamaño del texto del botón */
+        padding: 10px 12px; /* Ajustar el padding para pantallas pequeñas */
+        width: 90%; /* Ocupar casi todo el ancho en pantallas pequeñas */
+    }
+
+
     .hero h2 {
         font-size: 1.5em;
     }
@@ -274,11 +254,12 @@ footer p {
     .services h2 {
         font-size: 1.8em;
     }
-
+ }
     /* Reducir tamaño del logo en pantallas más pequeñas */
     .header-content .logo {
         width: 60px;
     }
-}
+ }
+
 
 
