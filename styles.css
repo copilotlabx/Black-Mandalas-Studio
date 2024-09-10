@@ -11,7 +11,7 @@ body {
     background-position: center center;
     background-size: cover; /* Añadir para ajustar la imagen de fondo a móviles */
     color: #e4e6eb;
-    padding-top: 90px; /* Ajustar según la altura del header */
+    padding-top: 98px; /* Ajustar según la altura del header */
 }
 
 /* Sección SoundCloud */
@@ -207,14 +207,14 @@ service-item img {
     .whatsapp-button {
         font-size: 1.1em;
         padding: 10px 16px; /* Reducir padding del botón en móviles */
-        width: 80%; /* Hacer que el botón ocupe más espacio horizontal en móviles */
+        width: 90%; /* Hacer que el botón ocupe más espacio horizontal en móviles */
     }
 
     .whatsapp-button::before {
         margin-right: 5px; /* Ajustar el margen del ícono en móviles */
     }
     .service-item {
-        width: 80%; /* Ajusta el ancho para móviles para que cada item use todo el ancho disponible */
+        width: 90%; /* Ajusta el ancho para móviles para que cada item use todo el ancho disponible */
     }
     .service-item img {
         min-height: 120px; /* Puede ajustar esta medida según necesidades específicas */
@@ -233,10 +233,10 @@ service-item img {
     .whatsapp-button {
         font-size: 1em; /* Ajustar el tamaño del texto del botón */
         padding: 10px 12px; /* Ajustar el padding para pantallas pequeñas */
-        width: 80%; /* Ocupar casi todo el ancho en pantallas pequeñas */
+        width: 70%; /* Ocupar casi todo el ancho en pantallas pequeñas */
     }
     .service-item img {
-        min-height: 100px; /* Ajuste para teléfonos más pequeños */
+        min-height: 90px; /* Ajuste para teléfonos más pequeños */
     }
 
     .hero h2 {
