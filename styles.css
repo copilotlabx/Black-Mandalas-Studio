@@ -125,12 +125,12 @@ header {
     text-align: left;
 }
 
-.service-item img {
-    width: 100%;
-    height: auto;
+service-item img {
+    width: 100%; /* Asegura que la imagen se adapte al contenedor */
+    height: auto; /* Mantiene la proporción de las imágenes */
     border-radius: 10px;
-    max-height: 200px;
-    object-fit: cover;
+    object-fit: cover; /* Asegura que la imagen cubra el área sin distorsionarse */
+    min-height: 150px; /* Establece una altura mínima para las imágenes */
 }
 
 .service-item h3 {
@@ -213,6 +213,12 @@ header {
     .whatsapp-button::before {
         margin-right: 5px; /* Ajustar el margen del ícono en móviles */
     }
+    .service-item {
+        width: 100%; /* Ajusta el ancho para móviles para que cada item use todo el ancho disponible */
+    }
+    .service-item img {
+        min-height: 120px; /* Puede ajustar esta medida según necesidades específicas */
+    }
 }
 
 @media (max-width: 480px) {
@@ -229,7 +235,9 @@ header {
         padding: 10px 12px; /* Ajustar el padding para pantallas pequeñas */
         width: 90%; /* Ocupar casi todo el ancho en pantallas pequeñas */
     }
-
+    .service-item img {
+        min-height: 100px; /* Ajuste para teléfonos más pequeños */
+    }
 
     .hero h2 {
         font-size: 1.5em;
