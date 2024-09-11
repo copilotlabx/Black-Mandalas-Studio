@@ -31,9 +31,9 @@ body {
     max-width: 660px;
     margin: 0 auto;
     background-color: #000;
-    border-radius: 10px;
+    border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Contenedor principal */
