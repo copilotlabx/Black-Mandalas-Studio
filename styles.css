@@ -205,6 +205,10 @@ header {
 
 /* Responsividad - Ajustes para móviles */
 @media (max-width: 768px) {
+    body {
+        background-attachment: scroll; /* Evitar comportamiento de imagen fija en móviles */
+        background-position: top center; /* Ajusta la posición para pantallas más pequeñas */
+    }
     .soundcloud-player {
         padding-bottom: 60%; /* Ajusta la proporción para pantallas más pequeñas */
     } 
@@ -239,6 +243,10 @@ header {
 }
 
 @media (max-width: 480px) {
+    body {
+        background-size: 100% auto; /* Ajustar la imagen a todo el ancho del dispositivo móvil */
+        background-position: top center; /* Centrar y ajustar la imagen en móviles */
+    }
     
     .soundcloud-player {
         padding-bottom: 75%; /* Ajuste para pantallas muy pequeñas */
