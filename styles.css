@@ -171,7 +171,7 @@ header {
     display: inline-block;
     background-color: #0aeb5c;
     color: #dffae3;
-    padding: 10px 16px; /* Mayor padding para mejorar la interacción en móviles */
+    padding: 8px 14px; /* Mayor padding para mejorar la interacción en móviles */
     font-size: 1.2em;
     font-weight: bold;
     text-decoration: none;
