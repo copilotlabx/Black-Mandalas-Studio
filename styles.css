@@ -205,6 +205,10 @@ header {
 
 /* Responsividad - Ajustes para móviles */
 @media (max-width: 768px) {
+    .soundcloud-player {
+        padding-bottom: 60%; /* Ajusta la proporción para pantallas más pequeñas */
+    } 
+    
     .contact {
         padding: 15px 10px; /* Reducir el padding en móviles */
     }
@@ -235,6 +239,11 @@ header {
 }
 
 @media (max-width: 480px) {
+    
+    .soundcloud-player {
+        padding-bottom: 75%; /* Ajuste para pantallas muy pequeñas */
+    }
+
     .contact h2 {
         font-size: 1.6em; /* Más pequeño para móviles muy pequeños */
     }
