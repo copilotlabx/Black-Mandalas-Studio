@@ -9,9 +9,9 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
-    background-size: cover; /* Añadir para ajustar la imagen de fondo a móviles */
+    background-size: cover; /* Mantiene la imagen proporcional y la ajusta */
     color: #df2c0cb4;
-    padding-top: 100px; /* Ajustar según la altura del header */
+    padding-top: 100px;
 }
 
 /* Sección SoundCloud */
