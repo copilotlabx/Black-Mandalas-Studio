@@ -149,7 +149,8 @@ header {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 18px 0; /* Aumentar el padding para móviles */
+    border-radius: 10px; /* Bordes más redondeados */
+    padding: 16px 0; /* Aumentar el padding para móviles */
     text-align: center; /* Centrar el contenido */
 }
 
@@ -171,7 +172,7 @@ header {
     display: inline-block;
     background-color: #0aeb5c;
     color: #dffae3;
-    padding: 8px 14px; /* Mayor padding para mejorar la interacción en móviles */
+    padding: 10px 14px; /* Mayor padding para mejorar la interacción en móviles */
     font-size: 1.2em;
     font-weight: bold;
     text-decoration: none;
