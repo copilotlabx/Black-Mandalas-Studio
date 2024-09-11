@@ -191,6 +191,12 @@ header {
 
 /* Responsividad - Ajustes para móviles */
 @media (max-width: 768px) {
+    body {
+        background-attachment: scroll; /* Cambiar a scroll en dispositivos móviles */
+        background-size: cover;
+        }
+    }
+    
     .contact {
         padding: 15px 10px; /* Reducir el padding en móviles */
     }
@@ -221,6 +227,11 @@ header {
 }
 
 @media (max-width: 480px) {
+    body {
+        background-attachment: scroll; /* Mantener scroll en móviles muy pequeños */
+        background-position: top center; /* Ajustar la posición para móviles pequeños */
+        background-size: 100% auto; /* Asegurar que la imagen se ajuste a lo ancho */
+    }
     .contact h2 {
         font-size: 1.6em; /* Más pequeño para móviles muy pequeños */
     }
