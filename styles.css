@@ -7,11 +7,10 @@ body {
     padding: 0;
     background-image: url('img/fondo.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll; /* Use scroll instead of fixed for better responsiveness */
     background-position: center center;
-    background-size: cover; /* Mantiene la imagen proporcional y la ajusta */
-    color: #df2c0cb4;
-    padding-top: 100px;
+    background-size: cover; /* Adjusts the size of the background image to cover the entire content */
+}
 }
 
 /* Sección SoundCloud */
@@ -206,8 +205,8 @@ header {
 /* Responsividad - Ajustes para móviles */
 @media (max-width: 768px) {
     body {
-        background-attachment: scroll; /* Evitar comportamiento de imagen fija en móviles */
-        background-position: top center; /* Ajusta la posición para pantallas más pequeñas */
+        background-attachment: scroll; /* This allows the background to move with the content */
+        background-position: top center; /* Adjusts the position to better fit mobile devices */
     }
     .soundcloud-player {
         padding-bottom: 60%; /* Ajusta la proporción para pantallas más pequeñas */
@@ -244,8 +243,8 @@ header {
 
 @media (max-width: 480px) {
     body {
-        background-size: 100% auto; /* Ajustar la imagen a todo el ancho del dispositivo móvil */
-        background-position: top center; /* Centrar y ajustar la imagen en móviles */
+        background-size: 100% auto; /* Fits the background image width to the device's width */
+        background-position: top center; /* Ensures the top part of the image is visible */
     }
     
     .soundcloud-player {
