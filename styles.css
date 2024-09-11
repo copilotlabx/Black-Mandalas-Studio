@@ -171,12 +171,13 @@ header {
 .whatsapp-button {
     display: inline-block;
     background-color: #0aeb5c;
+    border-radius: 10px; /* Bordes más redondeados */
     color: #dffae3;
-    padding: 10px 14px; /* Mayor padding para mejorar la interacción en móviles */
+    padding: 12px 14px; /* Mayor padding para mejorar la interacción en móviles */
     font-size: 1.2em;
     font-weight: bold;
     text-decoration: none;
-    border-radius: 10px; /* Bordes más redondeados */
+    
     transition: background-color 0.3s;
 }
 
