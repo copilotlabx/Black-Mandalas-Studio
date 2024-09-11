@@ -28,10 +28,11 @@ body {
 
 .soundcloud-player {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    padding-bottom: 50.25%; /* 16:9 aspect ratio */
     height: 0;
     overflow: hidden;
     max-width: 100%;
+    max-height: 100%;
     background-color: #000;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
