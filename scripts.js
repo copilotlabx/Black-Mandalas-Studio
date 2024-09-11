@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const playerContainer = document.getElementById('player-container');
         const iframe = document.createElement('iframe');
         iframe.width = "100%";
-        iframe.height = "200";  // Incrementa la altura para que se vean todas las canciones
+        iframe.height = "180";  // Incrementa la altura para que se vean todas las canciones
         iframe.scrolling = "no";
         iframe.frameBorder = "no";
         iframe.allow = "autoplay";
