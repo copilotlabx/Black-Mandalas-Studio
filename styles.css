@@ -10,8 +10,8 @@ body {
     background-attachment: fixed;
     background-position: center center;
     background-size: cover; /* Añadir para ajustar la imagen de fondo a móviles */
-    color: #e4e6eb;
-    padding-top: 98px; /* Ajustar según la altura del header */
+    color: #df2c0cb4;
+    padding-top: 100px; /* Ajustar según la altura del header */
 }
 
 /* Sección SoundCloud */
@@ -87,7 +87,7 @@ header {
 .hero {
     padding: 30px 0;
     min-height: 20vh;
-    color: #fff;
+    color: #ebddde;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
     display: flex;
     align-items: center;
@@ -135,7 +135,7 @@ header {
 .service-item h3 {
     font-size: 1.5em;
     margin: 10px 0 5px;
-    color: #e4e6eb;
+    color: #ebddde;
 }
 
 .service-item p {
@@ -149,7 +149,7 @@ header {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px 0; /* Aumentar el padding para móviles */
+    padding: 18px 0; /* Aumentar el padding para móviles */
     text-align: center; /* Centrar el contenido */
 }
 
@@ -161,7 +161,7 @@ header {
 }
 
 .contact p {
-    font-size: 1.2em;
+    font-size: 1.8em;
     font-family: "Karla", sans-serif;
     margin-bottom: 20px;
 }
@@ -169,13 +169,13 @@ header {
 /* Botón de WhatsApp */
 .whatsapp-button {
     display: inline-block;
-    background-color: #25D366;
-    color: #fff;
+    background-color: #0aeb5c;
+    color: #dffae3;
     padding: 12px 20px; /* Mayor padding para mejorar la interacción en móviles */
     font-size: 1.2em;
     font-weight: bold;
     text-decoration: none;
-    border-radius: 8px; /* Bordes más redondeados */
+    border-radius: 10px; /* Bordes más redondeados */
     transition: background-color 0.3s;
 }
 
@@ -266,7 +266,9 @@ header {
     .header-content .logo {
         width: 60px;
     }
- }
+ 
+
+
 
 
 
