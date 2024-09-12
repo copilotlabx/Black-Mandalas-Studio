@@ -217,7 +217,7 @@ header {
 }
 
 /* Responsividad - Ajustes para móviles */
-@media (max-width: 768px) {
+@media (max-width: 768px) and (max-width: 1024px) {
     body {
        background-size: cover; /* Cubre todo el espacio, ajustando la imagen proporcionalmente */
         background-position: center center; /* Centra la imagen en dispositivos móviles */
