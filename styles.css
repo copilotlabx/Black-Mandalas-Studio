@@ -212,7 +212,7 @@ header {
     }
 
     .service-item {
-        width: 50%; /* Ajustar el ancho de los items de servicios para visualización en dos columnas */
+        width: 60%; /* Ajustar el ancho de los items de servicios para visualización en dos columnas */
     }
 }
 
@@ -223,7 +223,7 @@ header {
         background-position: center center; /* Centra la imagen en dispositivos móviles */
     }
     .soundcloud-player {
-        padding-bottom: 60%; /* Ajusta la proporción para pantallas más pequeñas */
+        padding-bottom: 70%; /* Ajusta la proporción para pantallas más pequeñas */
     } 
     
     .contact {
