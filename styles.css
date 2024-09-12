@@ -7,11 +7,10 @@ body {
     padding: 0;
     background-image: url('img/fondo.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover; /* Mantiene la imagen proporcional y la ajusta */
-    color: #df2c0cb4;
-    padding-top: 100px;
+    background-attachment: scroll; /* Cambio para asegurar compatibilidad en móviles */
+    background-position: center; /* Asegura que el centro de la imagen siempre esté visible */
+    background-size: cover; /* Se mantiene para cubrir todo el espacio disponible */
+    min-height: 100vh; /* Asegura que el body tiene al menos el alto de la pantalla del dispositivo */
 
 }
 
@@ -207,8 +206,8 @@ header {
 /* Responsividad - Ajustes para móviles */
 @media (max-width: 768px) {
     body {
-        background-attachment: scroll; /* This allows the background to move with the content */
-        background-position: top center; /* Adjusts the position to better fit mobile devices */
+       background-size: cover; /* Cubre todo el espacio, ajustando la imagen proporcionalmente */
+        background-position: center center; /* Centra la imagen en dispositivos móviles */
     }
     .soundcloud-player {
         padding-bottom: 60%; /* Ajusta la proporción para pantallas más pequeñas */
@@ -245,8 +244,8 @@ header {
 
 @media (max-width: 480px) {
     body {
-        background-size: 100% auto; /* Fits the background image width to the device's width */
-        background-position: top center; /* Ensures the top part of the image is visible */
+        background-size: cover; /* Continúa cubriendo el espacio completo */
+        background-position: center top; /* Ajusta para enfocar la parte superior de la imagen */
     }
     
     .soundcloud-player {
