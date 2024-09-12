@@ -202,6 +202,19 @@ header {
     margin-right: 10px;
     vertical-align: middle;
 }
+@media (min-width: 769px) and (max-width: 1024px) {
+    body {
+        background-position: center center;
+    }
+
+    .header-content .logo {
+        width: 80px; /* Ajustar tamaño del logo para laptops */
+    }
+
+    .service-item {
+        width: 50%; /* Ajustar el ancho de los items de servicios para visualización en dos columnas */
+    }
+}
 
 /* Responsividad - Ajustes para móviles */
 @media (max-width: 768px) {
