@@ -7,10 +7,11 @@ body {
     padding: 0;
     background-image: url('img/fondo.jpg');
     background-repeat: no-repeat;
-    background-attachment: scroll; /* Cambio para asegurar compatibilidad en móviles */
-    background-position: center; /* Asegura que el centro de la imagen siempre esté visible */
-    background-size: cover; /* Se mantiene para cubrir todo el espacio disponible */
-    min-height: 100vh; /* Asegura que el body tiene al menos el alto de la pantalla del dispositivo */
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover; /* Mantiene la imagen proporcional y la ajusta */
+    color: #df2c0cb4;
+    padding-top: 100px;
 
 }
 
