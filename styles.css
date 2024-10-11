@@ -125,7 +125,7 @@ header {
 
 /* Sección de Servicios */
 .services {
-    padding: 20px 0;
+    padding: 15px 0;
     display: flex; /* Usa Flexbox para manejar los elementos de servicio */
     flex-wrap: wrap; /* Permite que los elementos se envuelvan */
     justify-content: space-around; /* Distribuye los elementos de manera equitativa */
