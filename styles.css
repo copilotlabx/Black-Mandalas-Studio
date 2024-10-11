@@ -148,28 +148,17 @@ header {
     border-radius: 10px;
 }
 
+.service-item h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Añadir sombra para mejorar legibilidad */
+}
+
 .service-item p {
     font-size: 1.2em;
     line-height: 1.5;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Mejorar legibilidad */
 }
-
-.services h2 {
-    font-size: 2.4em;
-    font-family: "Protest Guerrilla", sans-serif;
-    margin-bottom: 20px;
-    color: #fbff00;
-}
-
-
-.service-item h3 {
-    font-size: 2em;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: white; /* Ajuste del color del texto */
-}
-
-
 
 
 /* Sección de Contacto */
