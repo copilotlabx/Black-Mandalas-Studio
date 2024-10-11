@@ -126,27 +126,22 @@ header {
 /* Sección de Servicios */
 .services {
     padding: 20px 0;
-    display: flex; /* Usa Flexbox para manejar los elementos de servicio */
-    flex-wrap: wrap; /* Permite que los elementos se envuelvan */
-    justify-content: space-around; /* Distribuye los elementos de manera equitativa */
-    align-items: stretch; /* Estira los elementos para que tengan la misma altura */
 }
 
 .service-item {
-    width: 25%; /* Aproximadamente 45% para que quepan dos elementos por fila */
-    margin: 5px; /* Espaciado entre servicios */
+     display: inline-block;
+    width: 45%;
+    margin: 10px;
     vertical-align: top;
-    text-align: center; /* Centrar contenido dentro de cada servicio */
-    display: flex;
-   /* flex-direction: column; /* Organiza el contenido de forma vertical */
-    align-items: center; /* Alinea el contenido horizontalmente al centro */
+    text-align: left;
 }
 
 .service-item img {
-   /*width: 80%; /* Ancho completo dentro de su contenedor */
-    max-width: 400px; /* Ajusta el ancho máximo para mantener las proporciones */
-    height: auto; /* Altura automática para mantener la proporción */
-    border-radius: 10px; /* Bordes redondeados */
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    max-height: 200px;
+    object-fit: cover;
 }
 
 .services h2 {
