@@ -144,7 +144,7 @@ header {
 
 .service-item img {
    width: 100%; /* Ancho completo dentro de su contenedor */
-    max-width: 300px; /* Ajusta el ancho máximo para mantener las proporciones */
+    max-width: 400px; /* Ajusta el ancho máximo para mantener las proporciones */
     height: auto; /* Altura automática para mantener la proporción */
     border-radius: 10px; /* Bordes redondeados */
 }
