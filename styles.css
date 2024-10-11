@@ -128,12 +128,12 @@ header {
     padding: 20px 0;
     display: flex; /* Usa Flexbox para manejar los elementos de servicio */
     flex-wrap: wrap; /* Permite que los elementos se envuelvan */
-    justify-content: center; /* Centra los elementos horizontalmente */
+    justify-content: space-around; /* Distribuye los elementos de manera equitativa */
     align-items: stretch; /* Estira los elementos para que tengan la misma altura */
 }
 
 .service-item {
-    width: 22%; /* Aproximadamente 25% ajustado para espaciado */
+    width: 45%; /* Aproximadamente 45% para que quepan dos elementos por fila */
     margin: 10px; /* Espaciado entre servicios */
     vertical-align: top;
     text-align: center; /* Centrar contenido dentro de cada servicio */
@@ -143,8 +143,8 @@ header {
 }
 
 .service-item img {
-    width: 100%; /* Ancho completo dentro de su contenedor */
-    max-width: 200px; /* Máximo ancho de imagen */
+   width: 100%; /* Ancho completo dentro de su contenedor */
+    max-width: 300px; /* Ajusta el ancho máximo para mantener las proporciones */
     height: auto; /* Altura automática para mantener la proporción */
     border-radius: 10px; /* Bordes redondeados */
 }
