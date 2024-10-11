@@ -138,7 +138,7 @@ header {
     vertical-align: top;
     text-align: center; /* Centrar contenido dentro de cada servicio */
     display: flex;
-    flex-direction: column; /* Organiza el contenido de forma vertical */
+   /* flex-direction: column; /* Organiza el contenido de forma vertical */
     align-items: center; /* Alinea el contenido horizontalmente al centro */
 }
 
