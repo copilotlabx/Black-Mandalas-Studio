@@ -125,11 +125,10 @@ header {
 
 /* Sección de Servicios */
 .services {
-    display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between; /* Distribuye uniformemente los elementos */
-	gap: 20px; /* Espacio entre elementos */
-}
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+    gap: 20px; /* Espacio entre las tarjetas */
+    padding: 20px 0;
 
 .services h2 {
     font-size: 2.4em;
@@ -139,9 +138,8 @@ header {
 }
 
 .service-item {
-     width: 23%; /* Cada tarjeta ocupa aproximadamente el 25% del ancho disponible */
-	margin-bottom: 20px; /* Espacio inferior entre filas */
-	text-align: left;
+    margin: 0; /* Asegura que no haya márgenes no deseados */
+    text-align: center; /* Centra el texto */
 
     )
 .service-item img {
