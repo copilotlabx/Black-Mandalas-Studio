@@ -126,9 +126,9 @@ header {
 /* Sección de Servicios */
 .services {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 columnas */
-    gap: 20px; /* Espacio entre las tarjetas */
-    padding: 20px 0;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    grid-gap: 20px; /* Espacio entre las tarjetas */
+    padding: 20px;
 
 .services h2 {
     font-size: 2.4em;
@@ -138,9 +138,13 @@ header {
 }
 
 .service-item {
-    margin: 0; /* Asegura que no haya márgenes no deseados */
-    text-align: center; /* Centra el texto */
-
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro para que el texto resalte */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    transition: transform 0.3s ease-in-out;
     )
 .service-item img {
     width: 100%;
