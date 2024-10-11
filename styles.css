@@ -217,20 +217,9 @@ header {
         width: 80px; /* Ajustar tamaño del logo para laptops */
     }
 
-      .service-item {
-        flex-direction: column;
-        text-align: center;
+    .service-item {
+        width: 90%;
     }
-
-    .service-item img {
-        width: 80%; /* Aumentar el tamaño de la imagen en pantallas más pequeñas */
-        margin-bottom: 20px;
-    }
-
-    .service-item .description {
-        width: 100%;
-    }
-}
 }
 
 /* Responsividad - Ajustes para móviles */
