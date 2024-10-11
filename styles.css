@@ -125,10 +125,29 @@ header {
 
 /* Sección de Servicios */
 .services {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
-    grid-gap: 20px; /* Espacio entre las tarjetas */
-    padding: 20px;
+    padding: 20px 0;
+    display: flex; /* Usa Flexbox para manejar los elementos de servicio */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: stretch; /* Estira los elementos para que tengan la misma altura */
+}
+
+.service-item {
+    width: 22%; /* Aproximadamente 25% ajustado para espaciado */
+    margin: 10px; /* Espaciado entre servicios */
+    vertical-align: top;
+    text-align: center; /* Centrar contenido dentro de cada servicio */
+    display: flex;
+    flex-direction: column; /* Organiza el contenido de forma vertical */
+    align-items: center; /* Alinea el contenido horizontalmente al centro */
+}
+
+.service-item img {
+    width: 100%; /* Ancho completo dentro de su contenedor */
+    max-width: 200px; /* Máximo ancho de imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+    border-radius: 10px; /* Bordes redondeados */
+}
 
 .services h2 {
     font-size: 2.4em;
@@ -137,22 +156,6 @@ header {
     color: #fbff00;
 }
 
-.service-item {
-    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro para que el texto resalte */
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    font-family: 'Arial', sans-serif;
-    transition: transform 0.3s ease-in-out;
-    )
-.service-item img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    max-height: 200px;
-    object-fit: cover;
-}
 .service-item h3 {
     font-size: 1.5em;
     margin: 10px 0 5px;
