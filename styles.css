@@ -141,8 +141,8 @@ header {
 }
 
 .service-item img {
-    width: 90%; /* Ancho completo del contenedor */
-    height: 300px; /* Altura fija para todas las imágenes */
+    width: 80%; /* Ancho completo del contenedor */
+    height: 460px; /* Altura fija para todas las imágenes */
     object-fit: cover; /* Mantiene la proporción de la imagen sin distorsionarla */
     border-radius: 10px;
     margin-bottom: 20px;
