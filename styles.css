@@ -141,11 +141,11 @@ header {
 }
 
 .service-item img {
-    width: 100%;
-    height: auto;
-    max-width: 500px;
-    margin-bottom: 20px;
+    width: 100%; /* Ancho completo del contenedor */
+    height: 200px; /* Altura fija para todas las imágenes */
+    object-fit: cover; /* Mantiene la proporción de la imagen sin distorsionarla */
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .service-item h3 {
