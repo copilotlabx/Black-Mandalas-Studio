@@ -125,25 +125,50 @@ header {
 
 /* Sección de Servicios */
 .services {
-    padding: 20px 0;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .service-item {
-     display: inline-block;
-    width: 45%;
-    margin: 10px;
-    vertical-align: top;
-    text-align: left;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.service-item:nth-child(odd) {
+    flex-direction: row-reverse; /* Invertir el orden de los elementos en filas impares */
 }
 
 .service-item img {
-    width: 100%;
+    width: 40%; /* Tamaño de la imagen como porcentaje del contenedor */
+    max-width: 500px;
     height: auto;
     border-radius: 10px;
-    max-height: 200px;
-    object-fit: cover;
 }
 
+.service-item .description {
+    width: 55%; /* Ajuste del tamaño del texto */
+    padding: 0 20px;
+}
+
+.service-item h3 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white; /* Ajuste del color del texto */
+}
+
+.service-item p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: white; /* Ajuste del color del texto */
+}
 .services h2 {
     font-size: 2.4em;
     font-family: "Protest Guerrilla", sans-serif;
@@ -157,10 +182,6 @@ header {
     color: #ebddde;
 }
 
-.service-item p {
-    font-size: 1em;
-    color: #f9fbff;
-}
 
 /* Sección de Contacto */
 .contact {
