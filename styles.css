@@ -125,37 +125,42 @@ header {
 
 /* Sección de Servicios */
 .services {
-    padding: 40px 0;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Aumentar el contraste */
 }
 
 .service-item {
-    width: 100%;
-    max-width: 1200px;
-    margin-bottom: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width: 45%;
+    margin: 20px;
     text-align: center;
-}
-
-.service-item:nth-child(odd) {
-    flex-direction: row-reverse; /* Invertir el orden de los elementos en filas impares */
+    color: white; /* Cambiar el color a blanco para mejorar legibilidad */
 }
 
 .service-item img {
-    width: 40%; /* Tamaño de la imagen como porcentaje del contenedor */
-    max-width: 500px;
+    width: 100%;
     height: auto;
+    max-width: 500px;
+    margin-bottom: 20px;
     border-radius: 10px;
 }
 
-.service-item .description {
-    width: 55%; /* Ajuste del tamaño del texto */
-    padding: 0 20px;
+.service-item p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Mejorar legibilidad */
 }
+
+.services h2 {
+    font-size: 2.4em;
+    font-family: "Protest Guerrilla", sans-serif;
+    margin-bottom: 20px;
+    color: #fbff00;
+}
+
 
 .service-item h3 {
     font-size: 2em;
@@ -164,23 +169,7 @@ header {
     color: white; /* Ajuste del color del texto */
 }
 
-.service-item p {
-    font-size: 1.2em;
-    line-height: 1.5;
-    color: white; /* Ajuste del color del texto */
-}
-.services h2 {
-    font-size: 2.4em;
-    font-family: "Protest Guerrilla", sans-serif;
-    margin-bottom: 20px;
-    color: #fbff00;
-}
 
-.service-item h3 {
-    font-size: 1.5em;
-    margin: 10px 0 5px;
-    color: #ebddde;
-}
 
 
 /* Sección de Contacto */
