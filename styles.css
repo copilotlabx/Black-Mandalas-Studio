@@ -133,8 +133,8 @@ header {
 }
 
 .service-item {
-    width: 45%; /* Aproximadamente 45% para que quepan dos elementos por fila */
-    margin: 10px; /* Espaciado entre servicios */
+    width: 35%; /* Aproximadamente 45% para que quepan dos elementos por fila */
+    margin: 5px; /* Espaciado entre servicios */
     vertical-align: top;
     text-align: center; /* Centrar contenido dentro de cada servicio */
     display: flex;
