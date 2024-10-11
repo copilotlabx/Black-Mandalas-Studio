@@ -130,7 +130,7 @@ header {
     justify-content: center;
     align-items: flex-start;
     padding: 50px 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Aumentar el contraste */
+    
 }
 
 .service-item {
