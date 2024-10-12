@@ -89,7 +89,8 @@ header {
 }
 
 .header-content .logo {
-    width: 140px;
+     width: 200px; /* Ajusta el tamaño según tus necesidades */
+    height: auto; /* Mantiene la proporción de la imagen */
     margin-bottom: 10px;
 }
 
