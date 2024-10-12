@@ -89,9 +89,9 @@ header {
 }
 
 .header-content .logo {
-     width: 200px; /* Ajusta el tamaño según tus necesidades */
+     width: 260px; /* Ajusta el tamaño según tus necesidades */
     height: auto; /* Mantiene la proporción de la imagen */
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .header-text h1 {
