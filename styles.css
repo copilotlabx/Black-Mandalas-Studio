@@ -149,7 +149,7 @@ header {
     margin-bottom: 20px;*/
 
     width: 80%;
-    height: 180px; /* Deja que la altura se ajuste automáticamente */
+    height: 220px; /* Deja que la altura se ajuste automáticamente */
     object-fit: cover; /* Mantiene la proporción sin distorsionar */
     border-radius: 10px;
     margin-bottom: 20px;
