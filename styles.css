@@ -148,8 +148,8 @@ header {
     border-radius: 10px;
     margin-bottom: 20px;*/
 
-    width: 50%;
-    height: 160px; /* Deja que la altura se ajuste automáticamente */
+    width: 80%;
+    height: 120px; /* Deja que la altura se ajuste automáticamente */
     object-fit: cover; /* Mantiene la proporción sin distorsionar */
     border-radius: 10px;
     margin-bottom: 20px;
