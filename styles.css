@@ -40,7 +40,7 @@ body {
     max-width: 100%;
     background-color: #000;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 .soundcloud-player iframe {
@@ -89,9 +89,9 @@ header {
 }
 
 .header-content .logo {
-     width: 260px; /* Ajusta el tamaño según tus necesidades */
+     width: 220px; /* Ajusta el tamaño según tus necesidades */
     height: auto; /* Mantiene la proporción de la imagen */
-    margin-bottom: 30px;
+    margin-bottom: 30px;    
 }
 
 .header-text h1 {
@@ -374,7 +374,7 @@ header {
  }
     /* Reducir tamaño del logo en pantallas más pequeñas */
     .header-content .logo {
-        width: 60px;
+        width: 80px;
     }
 
 
