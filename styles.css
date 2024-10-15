@@ -149,7 +149,7 @@ header {
     margin-bottom: 20px;*/
 
     width: 100%; /* Ocupa todo el ancho del contenedor */
-    height: 200px; /* Fija la altura para todas las imágenes */
+    height: 100px; /* Fija la altura para todas las imágenes */
     object-fit: cover; /* Recorta la imagen para que encaje en el contenedor sin distorsión */
     border-radius: 10px; /* Mantiene los bordes redondeados */
     margin-bottom: 20px;
