@@ -219,6 +219,18 @@ header {
     body {
         background-position: center center;
     }
+    .container {
+        width: 90%; /* Ocupa más ancho en pantallas pequeñas */
+    }
+
+    h1 {
+        font-size: 2.5rem; /* Reduce el tamaño de los títulos */
+    }
+
+    .service-item {
+        width: 100%; /* Cada ítem de servicio ocupará todo el ancho */
+        margin: 20px 0; /* Espacio entre ítems */
+    }
 
     .header-content .logo {
         width: 80px; /* Ajustar tamaño del logo para laptops */
@@ -286,10 +298,21 @@ header {
         font-size: 1em; /* Reducir el tamaño del texto aún más */
     }
 
+   .container {
+        width: 95%; /* Aumenta el ancho para pantallas pequeñas */
+    }
+
+    h1 {
+        font-size: 2rem; /* Reduce aún más los títulos en móviles */
+    }
+
+    .service-item img {
+        height: auto; /* Ajusta la altura de las imágenes */
+        width: 100%; /* Ocupa todo el ancho disponible */
+    }
+
     .whatsapp-button {
-        font-size: 1em; /* Ajustar el tamaño del texto del botón */
-        padding: 10px 12px; /* Ajustar el padding para pantallas pequeñas */
-        width: 70%; /* Ocupar casi todo el ancho en pantallas pequeñas */
+        width: 80%; /* Botón más grande en móviles */
     }
     .service-item img {
         min-height: 90px; /* Ajuste para teléfonos más pequeños */
