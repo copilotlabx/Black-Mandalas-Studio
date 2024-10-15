@@ -1,5 +1,4 @@
-
-/* Estilos generales */
+    /* Estilos generales */
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Karla:ital,wght@0,200..800;1,200..800&family=Lilita+One&family=Protest+Guerrilla&display=swap');
 
 body {
@@ -150,7 +149,7 @@ header {
     margin-bottom: 20px;*/
 
     width: 100%;
-    height: 160px; /* Deja que la altura se ajuste automáticamente */
+    height: auto; /* Deja que la altura se ajuste automáticamente */
     object-fit: cover; /* Mantiene la proporción sin distorsionar */
     border-radius: 10px;
     margin-bottom: 20px;
@@ -377,10 +376,3 @@ header {
     .header-content .logo {
         width: 80px;
     }
-
-
-
-
-
-
-
