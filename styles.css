@@ -142,9 +142,15 @@ header {
 }
 
 .service-item img {
-    width: 80%; /* Ancho completo del contenedor */
-    height: 460px; /* Altura fija para todas las imágenes */
-    object-fit: cover; /* Mantiene la proporción de la imagen sin distorsionarla */
+   /* width: 80%;  Ancho completo del contenedor 
+    height: 460px; /* Altura fija para todas las imágenes
+    object-fit: cover; /* Mantiene la proporción de la imagen sin distorsionarla 
+    border-radius: 10px;
+    margin-bottom: 20px;*/
+
+    width: 100%;
+    height: auto; /* Deja que la altura se ajuste automáticamente */
+    object-fit: cover; /* Mantiene la proporción sin distorsionar */
     border-radius: 10px;
     margin-bottom: 20px;
 }
@@ -202,8 +208,12 @@ header {
     font-size: 1.2em;
     font-weight: bold;
     text-decoration: none;
-    
     transition: background-color 0.3s;
+    text-align: center;
+    width: 80%; /* Ajusta el ancho para pantallas pequeñas */
+    max-width: 300px; /* Limita el ancho en pantallas grandes */
+    transition: background-color 0.3s;
+    
 }
 
 .whatsapp-button:hover {
@@ -278,6 +288,23 @@ header {
     .service-item img {
         min-height: 120px; /* Puede ajustar esta medida según necesidades específicas */
     }
+     .hero h2 {
+        font-size: 1.8em;
+    }
+
+    .hero p {
+        font-size: 1.2em;
+    }
+
+    .service-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .service-item img {
+        max-height: 300px; /* Ajusta la altura en pantallas más pequeñas */
+    }
+    
 }
 
 @media (max-width: 480px) {
@@ -307,12 +334,16 @@ header {
     }
 
     .service-item img {
-        height: auto; /* Ajusta la altura de las imágenes */
+        
+         max-height: 200px; /* Ajuste más pequeño para móviles */
         width: 100%; /* Ocupa todo el ancho disponible */
     }
 
     .whatsapp-button {
         width: 80%; /* Botón más grande en móviles */
+        font-size: 1em;
+        padding: 10px 16px;
+        
     }
     .service-item img {
         min-height: 90px; /* Ajuste para teléfonos más pequeños */
@@ -323,9 +354,8 @@ header {
     }
 
     .hero p {
-        font-size: 0.9em;
+        font-size: 1em;
     }
-
     .header-text h1 {
         font-size: 2em;
     }
