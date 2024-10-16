@@ -126,12 +126,21 @@ header {
 
 /* Sección de Servicios */
 .services {
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    grid-template-rows: repeat(2, 1fr);    /* Dos filas */
+    gap: 20px; /* Espacio entre los items */
+    justify-items: center; /* Alinear los items al centro horizontalmente */
+    align-items: center; /* Alinear los items al centro verticalmente */
+    padding: 40px 0;
+    /*  
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
     padding: 40px 0;
-    
+    */
 }
 
 .service-item {
