@@ -230,7 +230,9 @@ header {
 }
 @media (min-width: 769px) {
     body {
-        background-position: center center;
+         background-attachment: scroll; /* Evita el "fixed" en móviles, mejora el rendimiento */
+        background-size: cover;
+        background-position: center top; /* Enfoca la parte superior */
     }
     .container {
         width: 90%; /* Ocupa más ancho en pantallas pequeñas */
@@ -257,8 +259,9 @@ header {
 /* Responsividad - Ajustes para móviles */
 @media (max-width: 768px) and (max-width: 1024px) {
     body {
-       background-size: cover; /* Cubre todo el espacio, ajustando la imagen proporcionalmente */
-        background-position: center center; /* Centra la imagen en dispositivos móviles */
+        background-attachment: scroll; /* Evita el "fixed" en móviles, mejora el rendimiento */
+        background-size: cover;
+        background-position: center top; /* Enfoca la parte superior */
     }
     .soundcloud-player {
         padding-bottom: 70%; /* Ajusta la proporción para pantallas más pequeñas */
@@ -312,8 +315,9 @@ header {
 
 @media (max-width: 480px) {
     body {
-        background-size: cover; /* Continúa cubriendo el espacio completo */
-        background-position: center top; /* Ajusta para enfocar la parte superior de la imagen */
+        background-attachment: scroll; /* Evita el "fixed" en móviles, mejora el rendimiento */
+        background-size: cover;
+        background-position: center top; /* Enfoca la parte superior */
     }
     
     .soundcloud-player {
