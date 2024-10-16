@@ -171,7 +171,7 @@ header {
 
 }
 .service-item h3 {
-    font-size: 2.4em;
+    font-size: 2.2em;
     margin-bottom: 10px;
     color: #ebddde;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Añadir sombra para mejorar legibilidad */
@@ -180,7 +180,7 @@ header {
 
 .service-item p {
     font-size: 1em;
-    line-height: 1.5;
+    line-height: 1.2;
     color: #ebddde;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Mejorar legibilidad */
 }
