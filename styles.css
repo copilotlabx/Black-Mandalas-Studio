@@ -136,7 +136,7 @@ header {
 
 .service-item {
     width: 45%;
-    margin: 12px;
+    margin: 10px;
     text-align: center;
     color: white; /* Cambiar el color a blanco para mejorar legibilidad */
 }
@@ -152,7 +152,7 @@ header {
     height: 220px; /* Deja que la altura se ajuste automáticamente */
     object-fit: cover; /* Mantiene la proporción sin distorsionar */
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 .services-container h2{
      text-align: center;
