@@ -7,7 +7,7 @@ body {
     padding: 0;
     background-image: url('img/fondo.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll; /* Cambiar a scroll */
     background-position: center center;
     background-size: cover; /* Mantiene la imagen proporcional y la ajusta */
     color: #df2c0cb4;
