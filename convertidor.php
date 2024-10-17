@@ -1,9 +1,9 @@
 <?php
 // Ruta de la imagen original
-$source = 'ruta/a/tu/imagen.jpg';
+$source = 'img/fondo.jpg';
 
 // Ruta donde se guardará la imagen convertida
-$destination = 'ruta/a/tu/imagen.webp';
+$destination = 'img/fondo.webp';
 
 // Cargar la imagen original
 $image = imagecreatefromjpeg($source);
