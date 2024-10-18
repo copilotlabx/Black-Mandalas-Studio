@@ -241,7 +241,8 @@ header {
     body {
          background-attachment: scroll; /* Evita el "fixed" en móviles, mejora el rendimiento */
         background-size: cover;
-        background-position: center top; /* Enfoca la parte superior */
+          /* background-position: center top; Enfoca la parte superior */
+       
     }
     .container {
         width: 90%; /* Ocupa más ancho en pantallas pequeñas */
@@ -270,7 +271,7 @@ header {
     body {
         background-attachment: scroll; /* Evita el "fixed" en móviles, mejora el rendimiento */
         background-size: cover;
-        background-position: center top; /* Enfoca la parte superior */
+         /* background-position: center top; Enfoca la parte superior */
     }
     .soundcloud-player {
         padding-bottom: 70%; /* Ajusta la proporción para pantallas más pequeñas */
@@ -326,7 +327,8 @@ header {
     body {
         background-attachment: scroll; /* Evita el "fixed" en móviles, mejora el rendimiento */
         background-size: cover;
-        background-position: center top; /* Enfoca la parte superior */
+          /* background-position: center top; Enfoca la parte superior */
+      
     }
     
     .soundcloud-player {
