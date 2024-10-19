@@ -240,7 +240,7 @@ header {
 }
 @media (min-width: 769px) {
     body {
-         background-attachment: scroll;  /*Evita el "fixed" en móviles, mejora el rendimiento */
+         background-attachment: fixed;  /*Evita el "fixed" en móviles, mejora el rendimiento */
         background-size: contain; /* En pantallas más pequeñas, asegurar que la imagen mantenga su proporción */
         background-position: center center;  /* background-position: center top; Enfoca la parte superior */
         
@@ -271,7 +271,7 @@ header {
 /* Responsividad - Ajustes para móviles */
 @media (max-width: 768px) and (max-width: 1024px) {
     body {
-       background-attachment: scroll; /* Evita el "fixed" en móviles, mejora el rendimiento */
+       background-attachment: fixed; /* Evita el "fixed" en móviles, mejora el rendimiento */
         background-size: contain; /* En pantallas más pequeñas, asegurar que la imagen mantenga su proporción */
         background-position: center center;  /* background-position: center top; Enfoca la parte superior */
     }
@@ -327,7 +327,7 @@ header {
 
 @media (max-width: 480px) {
     body {
-        background-attachment: scroll; /* Evita el "fixed" en móviles, mejora el rendimiento */
+        background-attachment: fixed; /* Evita el "fixed" en móviles, mejora el rendimiento */
         background-size: contain; /* En pantallas más pequeñas, asegurar que la imagen mantenga su proporción */
         background-position: center center;  /* background-position: center top; Enfoca la parte superior */
       
