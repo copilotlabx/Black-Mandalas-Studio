@@ -10,6 +10,8 @@ body {
     background-attachment: fixed; /* Mantiene la imagen fija mientras se desplaza el contenido */
     background-position: center center;
     background-size: cover; /* Mantiene la imagen proporcional y la ajusta */
+    width: 100%;
+    height: 100%;
     color: #df2c0cb4;
     padding-top: 100px;
     
