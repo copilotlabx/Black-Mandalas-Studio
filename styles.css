@@ -7,7 +7,7 @@ body {
     padding: 0;
     background-image: url('img/fondo.jpg');
     background-repeat: no-repeat;
-    background-attachment: scroll; /* Cambiar a scroll */
+    background-attachment: fixed; /* Mantiene la imagen fija mientras se desplaza el contenido */
     background-position: center center;
     background-size: cover; /* Mantiene la imagen proporcional y la ajusta */
     color: #df2c0cb4;
@@ -240,7 +240,7 @@ header {
 }
 @media (min-width: 769px) {
     body {
-         background-attachment: scroll; /* Evita el "fixed" en móviles, mejora el rendimiento */
+         background-attachment: scroll;  /*Evita el "fixed" en móviles, mejora el rendimiento */
         background-size: contain; /* En pantallas más pequeñas, asegurar que la imagen mantenga su proporción */
         background-position: center center;  /* background-position: center top; Enfoca la parte superior */
         
