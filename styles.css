@@ -12,6 +12,7 @@ body {
     background-size: cover; /* Mantiene la imagen proporcional y la ajusta */
     color: #df2c0cb4;
     padding-top: 100px;
+    
 }
 .container {
     width: 95%;
@@ -240,8 +241,9 @@ header {
 @media (min-width: 769px) {
     body {
          background-attachment: scroll; /* Evita el "fixed" en móviles, mejora el rendimiento */
-        background-size: cover;
-          /* background-position: center top; Enfoca la parte superior */
+        background-size: contain; /* En pantallas más pequeñas, asegurar que la imagen mantenga su proporción */
+        background-position: center center;  /* background-position: center top; Enfoca la parte superior */
+        
        
     }
     .container {
@@ -269,9 +271,9 @@ header {
 /* Responsividad - Ajustes para móviles */
 @media (max-width: 768px) and (max-width: 1024px) {
     body {
-        background-attachment: scroll; /* Evita el "fixed" en móviles, mejora el rendimiento */
-        background-size: cover;
-         /* background-position: center top; Enfoca la parte superior */
+       background-attachment: scroll; /* Evita el "fixed" en móviles, mejora el rendimiento */
+        background-size: contain; /* En pantallas más pequeñas, asegurar que la imagen mantenga su proporción */
+        background-position: center center;  /* background-position: center top; Enfoca la parte superior */
     }
     .soundcloud-player {
         padding-bottom: 70%; /* Ajusta la proporción para pantallas más pequeñas */
@@ -326,8 +328,8 @@ header {
 @media (max-width: 480px) {
     body {
         background-attachment: scroll; /* Evita el "fixed" en móviles, mejora el rendimiento */
-        background-size: cover;
-          /* background-position: center top; Enfoca la parte superior */
+        background-size: contain; /* En pantallas más pequeñas, asegurar que la imagen mantenga su proporción */
+        background-position: center center;  /* background-position: center top; Enfoca la parte superior */
       
     }
     
