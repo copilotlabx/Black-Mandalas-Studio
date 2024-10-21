@@ -310,7 +310,7 @@ header {
 
 @media (max-width: 480px) {
     body {
-        background-attachment: fixed; /* Evita el "fixed" en móviles, mejora el rendimiento */
+        background-attachment: scroll;
         background-size: cover; /* En pantallas más pequeñas, asegurar que la imagen mantenga su proporción */
         background-position: center center;  /* background-position: center top; Enfoca la parte superior */
          /* background-attachment: scroll; /* Mejora el rendimiento en móviles */
@@ -343,7 +343,7 @@ header {
     }
 
     .whatsapp-button {
-        width: 80%; /* Botón más grande en móviles */
+       width: 90%; /* Ajustar el ancho a un 90% del contenedor */
         font-size: 1em;
         padding: 10px 16px;
         
@@ -364,18 +364,18 @@ header {
     }
 
     .contact h2 {
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
 
     .contact p {
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
 
     .services h2 {
-        font-size: 1.8em;
+        font-size: 1.4em;
     }
  }
     /* Reducir tamaño del logo en pantallas más pequeñas */
     .header-content .logo {
-        width: 80px;
+        width: 60px;
     }
