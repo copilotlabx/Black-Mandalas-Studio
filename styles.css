@@ -225,7 +225,7 @@ header {
         background-attachment: fixed; /* Evita el "fixed" en móviles, mejora el rendimiento */
         background-size: cover; /* En pantallas más pequeñas, asegurar que la imagen mantenga su proporción */
         background-position: center center;  /* background-position: center top; Enfoca la parte superior */
-        background-attachment: scroll; /* Mejora el rendimiento en móviles */
+        /* background-attachment: scroll; Mejora el rendimiento en móviles */
         
     }
     .container {
@@ -256,7 +256,7 @@ header {
         background-attachment: fixed; /* Evita el "fixed" en móviles, mejora el rendimiento */
         background-size: cover; /* En pantallas más pequeñas, asegurar que la imagen mantenga su proporción */
         background-position: center center;  /* background-position: center top; Enfoca la parte superior */
-        background-attachment: scroll; /* Mejora el rendimiento en móviles */    
+         /* background-attachment: scroll;  Mejora el rendimiento en móviles */    
     }
     .soundcloud-player {
         padding-bottom: 70%; /* Ajusta la proporción para pantallas más pequeñas */
@@ -313,7 +313,7 @@ header {
         background-attachment: fixed; /* Evita el "fixed" en móviles, mejora el rendimiento */
         background-size: cover; /* En pantallas más pequeñas, asegurar que la imagen mantenga su proporción */
         background-position: center center;  /* background-position: center top; Enfoca la parte superior */
-        background-attachment: scroll; /* Mejora el rendimiento en móviles */
+         /* background-attachment: scroll; /* Mejora el rendimiento en móviles */
     }
     
     .soundcloud-player {
