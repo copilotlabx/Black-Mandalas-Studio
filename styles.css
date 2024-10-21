@@ -321,19 +321,19 @@ header {
     }
 
     .contact h2 {
-        font-size: 1.6em; /* Más pequeño para móviles muy pequeños */
+        font-size: 1.2em; /* Más pequeño para móviles muy pequeños */
     }
 
     .contact p {
-        font-size: 1em; /* Reducir el tamaño del texto aún más */
+        font-size: 0.8em; /* Reducir el tamaño del texto aún más */
     }
 
    .container {
-        width: 95%; /* Aumenta el ancho para pantallas pequeñas */
+        width: 92%; /* Aumenta el ancho para pantallas pequeñas */
     }
 
     h1 {
-        font-size: 2rem; /* Reduce aún más los títulos en móviles */
+        font-size: 1.8rem; /* Reduce aún más los títulos en móviles */
     }
 
     .service-item img {
@@ -349,18 +349,18 @@ header {
         
     }
     .service-item img {
-        min-height: 90px; /* Ajuste para teléfonos más pequeños */
+        min-height: 70px; /* Ajuste para teléfonos más pequeños */
     }
 
     .hero h2 {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
     .hero p {
-        font-size: 1em;
+        font-size: 0.8em;
     }
     .header-text h1 {
-        font-size: 2em;
+        font-size: 1.8em;
     }
 
     .contact h2 {
@@ -368,11 +368,11 @@ header {
     }
 
     .contact p {
-        font-size: 0.8em;
+        font-size: 0.6em;
     }
 
     .services h2 {
-        font-size: 1.4em;
+        font-size: 0.8em;
     }
  }
     /* Reducir tamaño del logo en pantallas más pequeñas */
