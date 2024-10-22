@@ -324,9 +324,9 @@ header {
 
 @media (max-width: 480px) {
     body {
-        background-attachment: fixed;
+        background-attachment: scroll;
         background-size: cover; /* En pantallas más pequeñas, asegurar que la imagen mantenga su proporción */
-        background-position: center center;  /* background-position: center top; Enfoca la parte superior */
+        background-position: center top;  /* background-position: center top; Enfoca la parte superior */
          /* background-attachment: scroll; /* Mejora el rendimiento en móviles */
     }
     
@@ -363,7 +363,7 @@ header {
         
     }
     .service-item img {
-        min-height: 70px; /* Ajuste para teléfonos más pequeños */
+        min-height: 60px; /* Ajuste para teléfonos más pequeños */
     }
 
     .hero h2 {
