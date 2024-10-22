@@ -226,6 +226,10 @@ header {
         background-size: cover; /* En pantallas más pequeñas, asegurar que la imagen mantenga su proporción */
         background-position: center center;  /* background-position: center top; Enfoca la parte superior */
         /* background-attachment: scroll; Mejora el rendimiento en móviles */
+        /* Reducir tamaño del logo en pantallas más pequeñas */
+    .header-content .logo {
+        width: 80px;
+    }
         
     }
     .container {
@@ -311,8 +315,10 @@ header {
     }
     .service-item h3 {
            font-size: 1.8em;    
-    }   
-    
+    }  
+    .header-content .logo {
+        width: 80px;
+     }    
     
 }
 
@@ -385,8 +391,9 @@ header {
      .service-item h3 {
            font-size: 1.4em;    
     }   
- }
-    /* Reducir tamaño del logo en pantallas más pequeñas */
+     /* Reducir tamaño del logo en pantallas más pequeñas */
     .header-content .logo {
         width: 60px;
     }
+ }
+   
