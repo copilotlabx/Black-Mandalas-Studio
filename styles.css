@@ -220,10 +220,7 @@ header {
     margin-right: 10px;
     vertical-align: middle;
 }
-h6 {
-    font-size: 0.8em;
-    
-}
+
 @media (min-width: 769px) {
     body {
         background-attachment: fixed; /* Evita el "fixed" en móviles, mejora el rendimiento */
@@ -399,8 +396,6 @@ h6 {
     .header-content .logo {
         width: 60px;
     }
-    h6 {
-    font-size: 0.4em;
-    }
+   
  }
    
