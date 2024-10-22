@@ -220,6 +220,10 @@ header {
     margin-right: 10px;
     vertical-align: middle;
 }
+.container-footer h7 {
+    font-size: 0.4em;
+    
+}
 @media (min-width: 769px) {
     body {
         background-attachment: fixed; /* Evita el "fixed" en móviles, mejora el rendimiento */
