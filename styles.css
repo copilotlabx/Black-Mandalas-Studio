@@ -221,7 +221,7 @@ header {
     vertical-align: middle;
 }
 .container-footer h7 {
-    font-size: 0.4em;
+    font-size: 0.6em;
     
 }
 @media (min-width: 769px) {
@@ -399,5 +399,9 @@ header {
     .header-content .logo {
         width: 60px;
     }
+    .container-footer h7 {
+    font-size: 0.4em;
+    
+}
  }
    
