@@ -247,7 +247,11 @@ header {
 
     .service-item {
         width: 90%;
-    }
+    } 
+    .service-item h3 {
+           font-size: 1.6em;    
+    }   
+    
 }
 
 /* Responsividad - Ajustes para móviles */
@@ -305,6 +309,10 @@ header {
     .service-item img {
         max-height: 300px; /* Ajusta la altura en pantallas más pequeñas */
     }
+    .service-item h3 {
+           font-size: 1.8em;    
+    }   
+    
     
 }
 
@@ -374,6 +382,9 @@ header {
     .services h2 {
         font-size: 0.8em;
     }
+     .service-item h3 {
+           font-size: 1.8em;    
+    }   
  }
     /* Reducir tamaño del logo en pantallas más pequeñas */
     .header-content .logo {
