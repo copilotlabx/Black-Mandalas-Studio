@@ -399,7 +399,7 @@ h6 {
     .header-content .logo {
         width: 60px;
     }
-    .container-footer:h6 {
+    h6 {
     font-size: 0.4em;
     }
  }
