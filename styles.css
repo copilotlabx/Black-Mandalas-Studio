@@ -399,8 +399,8 @@ header {
     .header-content .logo {
         width: 60px;
     }
-    .container-footer h7 {
-    font-size: 0.6em;
+    .container-footer:h6 {
+    font-size: 0.4em;
     }
 }
  }
