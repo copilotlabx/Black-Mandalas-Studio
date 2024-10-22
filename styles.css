@@ -310,7 +310,7 @@ header {
 
 @media (max-width: 480px) {
     body {
-        background-attachment: scroll;
+        background-attachment: fixed;
         background-size: cover; /* En pantallas más pequeñas, asegurar que la imagen mantenga su proporción */
         background-position: center center;  /* background-position: center top; Enfoca la parte superior */
          /* background-attachment: scroll; /* Mejora el rendimiento en móviles */
@@ -325,7 +325,7 @@ header {
     }
 
     .contact p {
-        font-size: 0.8em; /* Reducir el tamaño del texto aún más */
+        font-size: 1em; /* Reducir el tamaño del texto aún más */
     }
 
    .container {
@@ -333,7 +333,7 @@ header {
     }
 
     h1 {
-        font-size: 1.8rem; /* Reduce aún más los títulos en móviles */
+        font-size: 1.6rem; /* Reduce aún más los títulos en móviles */
     }
 
     .service-item img {
