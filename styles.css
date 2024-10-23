@@ -267,6 +267,9 @@ header {
         background-position: center center;  /* background-position: center top; Enfoca la parte superior */
          /* background-attachment: scroll;  Mejora el rendimiento en móviles */    
     }
+     h2 {
+        font-size: 5vw;  /* Cambia el tamaño en pantallas más pequeñas */
+    }
     .soundcloud-player {
         padding-bottom: 70%; /* Ajusta la proporción para pantallas más pequeñas */
     } 
@@ -329,8 +332,11 @@ header {
         background-size: cover; /* En pantallas más pequeñas, asegurar que la imagen mantenga su proporción */
         background-position: center top;  /* background-position: center top; Enfoca la parte superior */
          /* background-attachment: scroll; /* Mejora el rendimiento en móviles */
+        
     }
-    
+      h2 {
+        font-size: 4vw;  /* Cambia el tamaño en pantallas más pequeñas */
+    }
     .soundcloud-player {
         padding-bottom: 75%; /* Ajuste para pantallas muy pequeñas */
     }
@@ -395,6 +401,9 @@ header {
      /* Reducir tamaño del logo en pantallas más pequeñas */
     .header-content .logo {
         width: 60px;
+    }
+    footer small {
+        font-size: 1rem;  /* Reduce un poco en pantallas pequeñas */
     }
    
  }
