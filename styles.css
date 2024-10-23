@@ -335,7 +335,7 @@ header {
         
     }
       h2 {
-        font-size: 4vw;  /* Cambia el tamaño en pantallas más pequeñas */
+        font-size: 3vw;  /* Cambia el tamaño en pantallas más pequeñas */
     }
     .soundcloud-player {
         padding-bottom: 75%; /* Ajuste para pantallas muy pequeñas */
@@ -403,7 +403,7 @@ header {
         width: 60px;
     }
     footer small {
-        font-size: 0.4rem;  /* Reduce un poco en pantallas pequeñas */
+        font-size: 0.6rem;  /* Reduce un poco en pantallas pequeñas */
     }
    
  }
