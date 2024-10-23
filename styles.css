@@ -328,10 +328,9 @@ header {
 
 @media (max-width: 480px) {
     body {
-         background-attachment: fixed;
-        background-size: cover; /* En pantallas más pequeñas, asegurar que la imagen mantenga su proporción */
-        background-position: center center;  /* background-position: center top; Enfoca la parte superior */
-         /* background-attachment: scroll; /* Mejora el rendimiento en móviles */
+        background-attachment: scroll;
+        background-size: 100% auto; /* Asegura que la imagen cubra el ancho pero mantiene la proporción vertical */
+        background-position: top center; /* Centra la imagen en pantallas muy pequeñas */
         
     }
       h2 {
