@@ -403,7 +403,7 @@ header {
         width: 60px;
     }
     footer small {
-        font-size: 1rem;  /* Reduce un poco en pantallas pequeñas */
+        font-size: 0.4rem;  /* Reduce un poco en pantallas pequeñas */
     }
    
  }
